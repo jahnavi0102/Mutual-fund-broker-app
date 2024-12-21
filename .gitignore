@@ -1,0 +1,22 @@
+/env
+/backend/__pycache__
+/mutual_fund_broker_app/node_modules
+
+# Testing output
+/mutual_fund_broker_app/coverage
+
+# Production build output
+/mutual_fund_broker_app/build
+
+# Miscellaneous files
+/mutual_fund_broker_app/.DS_Store
+/mutual_fund_broker_app/.env.local
+/mutual_fund_broker_app/.env.development.local
+/mutual_fund_broker_app/.env.test.local
+/mutual_fund_broker_app/.env.production.local
+
+
+
+/mutual_fund_broker_app/npm-debug.log*
+/mutual_fund_broker_app/yarn-debug.log*
+/mutual_fund_broker_app/yarn-error.log*

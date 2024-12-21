@@ -1,0 +1,16 @@
+services:
+  frontend:
+    build:
+      context: ./mutual_fund_broker_app/
+      dockerfile: ./Dockerfile
+    ports:
+      - "127.0.0.1:3000:80"
+
+  backend:
+    env_file:
+      - backend/.env
+    build:
+      context: ./backend/
+      dockerfile: ./Dockerfile
+    ports:
+      - "127.0.0.1:8000:80"
